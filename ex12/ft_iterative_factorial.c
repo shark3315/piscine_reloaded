@@ -14,6 +14,8 @@ int		ft_iterative_factorial(int nb)
 		}
 		return res;
 	}
+	if (nb == 0)
+		return 1;
 	else
 		return 0;
 }
@@ -22,6 +24,6 @@ int		ft_iterative_factorial(int nb)
 
 int main(void)
 {
-	printf("%d\n", ft_iterative_factorial(6));
+	printf("%d\n", ft_iterative_factorial(1));
 	return 0;
 }
